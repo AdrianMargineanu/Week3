@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Week3</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="i_accept_t_amp_c"><![CDATA[I accept T&C]]></string>
+    <string name="submit">SUBMIT</string>
+    <string name="error_email">Fill the input with a valid email address</string>
+    <string name="phone_error">Fill the input with a valid phone address</string>
+    <string name="checkbox_error">Please accept terms and conditions</string>
+    <string name="email_textview">Email:</string>
+    <string name="phone_textView">Phone:</string>
+    <string name="text">ScrollView: A view group that allows the view hierachy placed within it to scrolled. Scroll view may have only one direct child placed with it To add views within the scroll view, make the direct child you add a view group, for example LinearLayout, and place additional views with in that LinearLayout</string>
+    <string name="spinner_example">Spinner Example</string>
+</resources>

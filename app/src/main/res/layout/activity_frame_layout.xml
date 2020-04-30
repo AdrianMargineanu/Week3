@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/small_padding"
+    tools:context=".FrameLayoutActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_DP"
+        android:layout_gravity="center"
+        android:background="@color/purple" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/square_dim"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/small_padding"
+        android:background="@color/light_blue2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Margin_dim"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/Margin_dim"
+        android:background="@color/yellow_light" />
+
+</FrameLayout>

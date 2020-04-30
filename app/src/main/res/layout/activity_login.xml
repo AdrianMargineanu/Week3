@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/smallest_padding"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/smallest_padding"
+        android:text="@string/login"
+        android:textColor="@color/login_color"
+        android:textSize="@dimen/mediu_text_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailAddressInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <CheckBox
+        android:id="@+id/checking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/smallest_padding"
+        android:layout_marginBottom="@dimen/smallest_padding"
+        android:text="@string/i_accept_t_amp_c" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_color"
+        android:onClick="loginOnClick"
+        android:padding="@dimen/smallest_padding"
+        android:text="@string/submit"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/email_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/smallest_padding" />
+
+
+    <TextView
+        android:id="@+id/phone_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/smallest_padding" />
+
+</LinearLayout>
